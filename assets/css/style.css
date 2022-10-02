@@ -85,11 +85,26 @@ section::after {
   display: none;
 }
 
+.social-icons__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icons__wrapper {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+}
+
 @media screen and (max-width: 576px) {
   section {
     padding: 0 10px;
   }
-  
+
   .time-box__wrapper {
     gap: 16px;
   }
